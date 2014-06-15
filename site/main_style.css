@@ -1,0 +1,153 @@
+
+/* 
+    Created on : 15.6.2014, 11:30:56
+    Author     : kavansol
+*/
+
+
+*{
+    margin:0;
+}
+
+html body{
+    width:100%;  
+    height:100%;
+    max-height:100%;
+    overflow-x: hidden;
+}
+body{
+    margin:0; 
+    width:100%;
+    margin-top:60px;
+    margin-bottom: 200px;
+    background: url("/site/img/back_pattern.png");
+    /*color:black;*/
+}
+header{
+    position: fixed;
+    top:0;
+    height:100px;
+    width: 100%;
+    background-color: black;
+    color: #999966;
+    /*border-bottom: solid 5px;*/
+    /*border-color: #787878;*/
+    box-shadow: 10px 10px 5px #888888;
+    overflow-x: hidden;
+    z-index: 500;
+    display: block;
+    overflow: hidden;
+}
+header #header_main{
+    position: relative;
+    white-space: nowrap;
+    display: block;
+    width:60%;
+    margin:20px auto;     
+    height:100%; 
+    /*background: #888888;*/
+}
+#header_logo{
+    font-size: xx-large;
+    font-weight: 900;
+    float:left;
+    color: rgb(234, 247, 222);
+    /*display: inline;*/
+}
+#header_logo span{
+    font-weight: 600;
+}
+
+#header_navbar, #footer_main #bottom_nav{
+    display:inline-block;
+    height:100%;
+    margin: 0 auto;
+    margin-left: 100px;
+    text-align: center;
+
+}
+#header_navbar span{
+    display:inline-block;
+    border-top: 2px rgb(109, 109, 109) solid;
+    width:150px;
+    padding-top:20px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+    cursor: pointer;
+}
+#header_navbar span.choosed{
+    border-top: 3px rgb(236, 210, 145) solid;
+    color: rgb(236, 210, 145);
+}
+header .social_buttons, #footer_main .social_buttons{
+    display: inline-block;
+    float:right;
+}
+body #bodyWrapper{
+    margin: 150px auto -100px;
+    min-height: 100%;
+    height:auto !important;
+    height:100%;
+    min-height:100%;
+    min-width:100%;
+    display:block;
+    /*background: yellow;*/
+    text-align: center;
+}
+#main_content{
+    width: 60%;
+    margin:0 auto;
+    display:inline-block;
+    height:auto !important;
+    /*background: yellowgreen;*/
+}
+footer, #bodyWrapper .push{
+    min-height:200px; 
+    max-height:200px;
+    overflow-y: hidden;
+}
+footer{
+    position: relative;
+    background: rgb(209, 209, 209);
+    bottom:0;
+    margin-bottom: -100px;
+    width: 100%; 
+    display:block;
+    margin-bottom:  -200px;
+   /*min-height:100px;*/
+}
+footer #footer_main{
+    position: relative;
+    white-space: nowrap;
+    display: block;
+    width:60%;
+    margin:20px auto;     
+    height:100%; 
+    padding-top:40px;
+}
+#footer_main .copyright{
+    display:inline-block;
+    font-weight: 900;
+    color: rgb(28, 28, 28);
+
+}
+#footer_main #bottom_nav{
+    margin-left: 200px;
+
+}
+#footer_main #bottom_nav span{
+    display:inline-block;
+    width:100px;
+    padding-top:20px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+    cursor: pointer;
+
+}
+#footer_main #bottom_nav span.choosed{
+    color: rgb(28, 28, 28);
+    font-weight: 900;
+}
+
+
+

@@ -1,0 +1,157 @@
+
+/* 
+    Created on : 15.6.2014, 15:01:54
+    Author     : kavansol
+*/
+/*home view start*/
+#main_title{
+    font-size: xx-large;
+    font:normal normal normal 48px/1.3em arial, 'ms pgothic', dotum, helvetica, sans-serif;
+    color: rgb(28,28,28)
+}
+#main_title span:nth-child(1){
+    font-weight: 900;
+}
+#summary div{
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px auto;
+    margin-left: 10px;
+    padding:20px;
+    min-height:200px;
+    
+} 
+#summary div > img,#summary div > h3, #summary div > p{
+    margin-bottom: 20px;
+}
+ #summary div > p{
+    max-height:100px;
+    min-height:100px;
+}
+#news_feed{
+    width:95%;
+    float: left;
+    border-top: 2px #888888 dotted;
+    text-align: left;
+    padding:50px;
+}
+#news_content > div{
+ max-width: 700px;
+ float:left;
+ overflow: hidden;
+ margin-top: 20px;
+ margin-left:40px;
+}
+#news_content > div > img{
+ width:700px;
+ height:150px;
+ border-radius:15px;
+}
+#news_content > div > img,#news_content > div > h3, #news_content > div > p{
+  margin-bottom: 30px;
+}
+
+/* contact view start*/
+
+#conatct_main, #story_main{
+    width: 100%;
+    background: white;
+    border-radius: 15px;
+    padding:10px;
+    /*display:block;*/
+}
+#conatct_main img, #story_main img{
+    display:inline-block;
+    float:left;
+    
+}
+#conatct_main form{
+    display:inline-block;
+    /*float:right;*/
+}
+#contact_form{
+    display:inline-block;   
+    margin-left: 10px;
+}
+#contact_form h2{
+    float:left;
+    margin-bottom:50px;
+}
+.emptyFormField{
+    color:white;
+}
+.notEmptyFormField{
+    color:black;
+}
+#contact_form > textarea, #contact_form > input{
+display:block;    
+clear:both;
+float:right;
+}
+#contact_form > textarea, #contact_form > input[type="text"]{    
+    border-radius: 7px;
+    border: 1px rgb(209, 209, 209) solid;
+    margin-bottom: 10px;
+    background:rgb(209, 209, 209);
+    padding:2px;
+    
+}
+#contact_form > textarea{
+    width:400px;
+    height:250px;
+    resize: none;
+}
+
+#contact_form > input[type="text"]{
+
+    width: 400px;
+    height: 20px;
+
+
+}
+#contact_form > input[type="submit"]{
+    width: 90px;
+    height:30px;
+    color:white;
+    font-weight: 600;
+    font-size: large;
+    border:1px solid;
+    border-radius:7px;
+    background: #83b13a;
+    cursor:pointer;
+    
+}
+#mailSpan{
+    clear:both;
+    display:block;
+    margin-top:40px;
+    float:left;
+    font-weight: 600;
+}
+#story_main {
+    min-height: 556px;
+    
+}
+#story_main img{
+    height:556px;
+    
+}
+#story_main aside{
+    width: 300px;
+    display:inline-block;
+    
+}
+#story_main aside p,#story_main aside h3 {
+    float:left;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+#story_main aside h3{
+    font-size: x-large;
+}
+#story_main aside p:nth-child(2){
+    font-weight:900;
+
+}
